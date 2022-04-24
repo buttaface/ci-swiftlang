@@ -1,4 +1,4 @@
-// Jenkins Pipeline - swift-main-debian-11
+// Jenkins Pipeline - swift-main-debian-11-arm32v7
 pipeline {
    agent { label 'arm64' }
 
@@ -7,11 +7,11 @@ pipeline {
         SWIFT_BRANCH = 'main'
         SWIFT_SCHEME = 'main'
         SWIFT_VERSION = 'DEVELOPMENT-SNAPSHOT'
-        DOCKER_IMAGE = 'swiftarm/ci-build:debian_11'
-        CONTAINER = 'swift-main-dev-debian-11'
+        DOCKER_IMAGE = 'swiftarm/ci-build:arm32v7_debian_11_test'
+        CONTAINER = 'swift-main-dev-debian-11-arm32v7'
         OS = 'debian'
         OS_VERSION = 'bulleye'
-        ARCH = 'aarch64'
+        ARCH = 'armhf'
         WORK_DIR = '/home/build-user'
    }
    stages {
