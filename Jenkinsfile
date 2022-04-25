@@ -7,7 +7,7 @@ pipeline {
         SWIFT_BRANCH = 'main'
         SWIFT_SCHEME = 'main'
         SWIFT_VERSION = 'DEVELOPMENT-SNAPSHOT'
-        DOCKER_IMAGE = 'swiftarm/ci-build:arm32v7_debian_11_test'
+        DOCKER_IMAGE = 'swiftarm/ci-build:arm32v7_debian_11'
         CONTAINER = 'swift-main-dev-debian-11-arm32v7'
         OS = 'debian'
         OS_VERSION = 'bulleye'
