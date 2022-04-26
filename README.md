@@ -1,2 +1,4 @@
-# ci-swiftlang
-Jenkins pipelines for the Swift-Arm build server.
+# Ubuntu Hirsute Arm64
+**main branch**
+
+[![Build Status](https://ci.swiftlang.xyz/job/swift-main-ubuntu-hirsute/badge/icon)](https://ci.swiftlang.xyz/job/swift-main-ubuntu-hirsute/)
